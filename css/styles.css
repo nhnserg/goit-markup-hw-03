@@ -1,4 +1,3 @@
-
 :root {
   --main-text-color: #2E2F42;
   --scnd-text-color: #F4F4FD;
@@ -11,12 +10,40 @@ body {
   background: #FFFFFF;
 }
 
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
 .link {
   text-decoration: none;
 }
 
 .list {
   list-style: none;
+}
+
+.header {
+  border-bottom: 1px solid #e7e9fc;
+}
+
+.container {
+  width: 1158px;
+  margin: 0 auto;
+  padding: 0, 15px, 0, 15px;
+  display: flex;
+
+}
+
+.header-nav {
+  display: flex;
+  align-items: center;
 }
 
 .header-logo {
@@ -28,10 +55,22 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4D5AE5;
+  display: block;
+  margin-right: 76px;
 }
 
 .header-logo span {
   color: #2E2F42;
+}
+
+.menu {
+  display: flex;
+  gap: 40px;
+
+}
+
+.header-menu-item {
+  margin-right: 40px;
 }
 
 .header-menu-link {
@@ -51,6 +90,16 @@ body {
 .contacts {
   font-style: normal;
 }
+
+.menu-adrs {
+  display: flex;
+}
+
+.contacts-item-tw {
+  margin-right: 0;
+
+}
+
 
 .contacts-link {
   font-weight: 400;
@@ -193,6 +242,7 @@ body {
 .team {
   background: #F4F4FD;
 }
+
 .portfolio-item {
   font-weight: 500;
   font-size: 20px;

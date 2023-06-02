@@ -99,7 +99,14 @@ img {
 .header-menu-link:focus {
   color: #404BBF;
 }
-
+.header-menu {
+  display: flex;
+  align-items: center;
+}
+.header-menu-list {
+  display: flex;
+  gap: 40px;
+}
 .contacts {
   font-style: normal;
   padding: 24px;

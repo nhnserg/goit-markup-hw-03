@@ -82,8 +82,7 @@ img {
 
 .header-menu-item {
   margin-right: 40px;
-  padding-top: 24px;
-  padding-bottom: 24px;
+  padding: 24px 0 
 }
 
 .header-menu-link {

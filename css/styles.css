@@ -31,6 +31,7 @@ h6 {
 
 .header {
   border-bottom: 1px solid #e7e9fc;
+  padding: 0, 15px;
 }
 
 .container {
@@ -38,7 +39,6 @@ h6 {
   margin: 0 auto;
   padding: 0, 15px, 0, 15px;
   display: flex;
-
 }
 
 .header-nav {
@@ -71,6 +71,7 @@ h6 {
 
 .header-menu-item {
   margin-right: 40px;
+  padding: 24px;
 }
 
 .header-menu-link {
@@ -89,15 +90,20 @@ h6 {
 
 .contacts {
   font-style: normal;
+  padding: 24px;
 }
 
 .menu-adrs {
   display: flex;
+  gap: 40px;
+}
+
+.contacts-item {
+  margin-right: 40px;
 }
 
 .contacts-item-tw {
   margin-right: 0;
-
 }
 
 

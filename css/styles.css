@@ -214,10 +214,21 @@ img {
   letter-spacing: 0.02em;
   color: var(--contacts-link-color);
   margin-bottom: 8px;
+  text-align: center;
+}
+
+.team-list {
+  display: flex;
+  gap: 24px;
+}
+.name {
+  padding: 32px 16px;
 }
 
 .team-list-item {
   background-color: #FFFFFF;
+  width: calc((100% - 72px) / 4);
+  border-radius: 0px 0px 4px 4px;
 }
 
 .text-pf {
@@ -255,6 +266,7 @@ img {
   letter-spacing: 0.02em;
   color: var(--main-text-color);
   margin-bottom: 8px;
+  text-align: center;
 }
 
 .ttltw {
@@ -271,11 +283,7 @@ img {
   padding: 100px 0;
 }
 
-.back-logo {
-  font-family: 'Raleway', sans-serif;
-  font-style: normal;
-  font-weight: 800;
-  font-size: 18px;
+.back-logo { 
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
@@ -300,6 +308,7 @@ img {
 
 .team {
   background: #F4F4FD;
+  padding: 120px 0;
 }
 
 .portfolio-item {

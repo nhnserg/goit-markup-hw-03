@@ -160,19 +160,7 @@ img {
   height: 120px;
   left: 472px;
   top: 260px;
-  max-width: 496px;
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 56px;
-  line-height: 60px;
-  /* or 107% */
-
   text-align: center;
-  letter-spacing: 0.02em;
-
-  /* WHITE */
-
   color: #FFFFFF;
 }
 

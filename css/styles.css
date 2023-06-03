@@ -27,9 +27,7 @@ img {
   display: block;
 }
 
-.link {
-  text-decoration: none;
-}
+
 
 .list {
   list-style: none;
@@ -160,6 +158,7 @@ img {
   height: 120px;
   left: 472px;
   top: 260px;
+  max-width: 496px;
   text-align: center;
   color: #FFFFFF;
 }

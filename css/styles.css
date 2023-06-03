@@ -92,6 +92,7 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--main-text-color);
+  padding: 24px 0;
 }
 
 .header-menu-link:hover,
@@ -172,25 +173,12 @@ img {
 
 .main-btn {
   display: block;
-  display: flex;
   min-width: 169px;
-  flex-direction: row;
-  align-items: flex-start;
-  padding: 16px 32px;
-  gap: 10px;
-  border: none;
-  cursor: pointer;
-  width: 169px;
   height: 56px;
-  left: 636px;
-  top: 428px;
-
-
-  /* IRIS */
-
-  background: #4D5AE5;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border: none;
+  background-color: #4d5ae5;
   border-radius: 4px;
+  cursor: pointer;
 }
 
 .main-btn:hover,

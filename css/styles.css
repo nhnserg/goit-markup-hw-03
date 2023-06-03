@@ -52,7 +52,6 @@ img {
 .option-menu {
   display: flex;
   gap: 24px;
-  width: calc((100% - 72px) / 4);
 }
 
 .option-menu-item {

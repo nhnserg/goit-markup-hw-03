@@ -27,6 +27,14 @@ img {
   display: block;
 }
 
+.list {
+  list-style: none;
+}
+
+.link {
+  list-style: none;
+}
+
 .value {
   padding-bottom: 120px;
 }

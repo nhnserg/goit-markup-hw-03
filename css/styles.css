@@ -78,6 +78,12 @@ img {
   justify-content: space-between;
 }
 
+.section-container {
+  display: flex;
+  gap: 48px;
+  flex-direction: column;
+}
+
 .header-nav {
   display: flex;
   align-items: center;
@@ -206,7 +212,14 @@ img {
 }
 
 .btn-link {
-  margin-right: 24px;
+  cursor: pointer;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  padding: 12px 24px;
   border-radius: 4px;
 }
 
@@ -312,6 +325,7 @@ img {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--main-text-color);
+  margin-bottom: 8px;
 }
 
 .back {
@@ -351,22 +365,19 @@ img {
 }
 
 .portfolio-item {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: var(--main-text-color);
+  width: calc((100% - 48px) / 3);
 }
 
 .prtfl {
   padding: 96px 0 120px 0;
 }
 
-.portfolio-item-last {}
-
 .spisok-list {
   display: flex;
-  gap: 40px;
+  flex-wrap: wrap;
+  gap: 24px;
+  row-gap: 48px;
+  justify-content: center;
 }
 
 .visually-hidden {

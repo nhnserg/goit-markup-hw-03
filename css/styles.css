@@ -320,6 +320,8 @@ img {
 }
 
 .back-logo {
+  font-family: 'Raleway';
+  font-style: normal;
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
@@ -333,6 +335,7 @@ img {
 }
 
 .back-text {
+  font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -392,6 +395,7 @@ img {
   flex-direction: column;
   align-items: center;
 }
+
 .adress-item {
   display: flex;
   gap: 40px;

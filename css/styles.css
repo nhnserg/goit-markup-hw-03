@@ -281,6 +281,7 @@ img {
 
 .name {
   padding: 32px 16px;
+  ч
 }
 
 .team-list-item {
@@ -326,19 +327,29 @@ img {
 }
 
 .team-section-text {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
   font-size: 16px;
-  line-height: 1.5;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+
+  text-align: center;
   letter-spacing: 0.02em;
   color: var(--contacts-link-color);
 }
 
 .team-section-ttl {
+  font-family: 'Roboto';
+  font-style: normal;
   font-weight: 500;
   font-size: 20px;
-  line-height: 1.2;
+  line-height: 24px;
+  /* identical to box height, or 120% */
+  text-align: center;
   letter-spacing: 0.02em;
   color: var(--main-text-color);
-  align-items: center;
+  margin-bottom: 8px;
 }
 
 .ttltw {
@@ -358,7 +369,6 @@ img {
 
 .back-logo {
   display: inline-block;
-  margin-bottom: 17.5px;
   text-transform: uppercase;
   font-family: 'Raleway', sans-serif;
   font-weight: 800;
@@ -366,6 +376,7 @@ img {
   color: #4D5AE5;
   line-height: 1.17;
   letter-spacing: 0.03em;
+  margin-bottom: 16px;
 
 }
 
@@ -377,7 +388,6 @@ img {
   color: #FFFFFF;
   line-height: 1.17;
   letter-spacing: 0.03em;
-  margin-bottom: 17.5px;
 }
 
 .back-text {
